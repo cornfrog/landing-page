@@ -1,0 +1,82 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.header-container{
+    height: 525px;
+    background: #323643;
+}
+
+.projects-container{
+    height: 375px;
+	background: #f7f7f7; 
+}
+
+.quote-container{
+    height: 350px;
+    background: #606470;
+}
+
+.footer{
+    height: 100px;
+    background: #323643; 
+}
+
+.header-top{
+    height: 20%;
+    display: flex;
+}
+
+.header-content{
+    height: 55%;
+    margin-top: 5%;
+}
+
+.header-logo{
+    height: 85%;
+    width: 35%;
+    margin-left: 7%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links{
+    height: 55%;
+    width: 48%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.logo{
+    color: lightgrey;
+    font-size: 40pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link-group{
+    font-size: 18pt;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.link-group a:link{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.link-group a:hover{
+    text-decoration: underline;
+    color: lightgray;
+}
+
+.link-group a:visited{
+    color: lightgray;
+}
